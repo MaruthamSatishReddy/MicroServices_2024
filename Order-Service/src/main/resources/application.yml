@@ -1,0 +1,14 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: Order-Service
+  datasource:
+    url: jdbc:mysql://localhost:3306/order_service
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+inventory:
+  url: http://localhost:8085
